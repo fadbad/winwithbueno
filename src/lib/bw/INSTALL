@@ -1,0 +1,5 @@
+npx svelte-add@latest tailwindcss && yarn add -D @sveltejs/adapter-node@next prisma
+
+npx prisma init --datasource-provider mysql
+
+y add @aws-sdk/client-s3 @prisma/client bcryptjs buffer chart.js daisyui dotenv frappe-charts jimp joi libphonenumber-js lodash lottie-web moment moment-range node-cache socket.io socket.io-client sweetalert2

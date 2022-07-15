@@ -1,0 +1,107 @@
+[
+    {
+        "en": "Dubai",
+        "ar": "دبي",
+        "emirate": "Dubai"
+    },
+    {
+        "en": "Abu Dhabi",
+        "ar": "أبوظبي",
+        "emirate": "Abu Dhabi"
+    },
+    {
+        "en": "Sharjah",
+        "ar": "الشارقة",
+        "emirate": "Sharjah"
+    },
+    {
+        "en": "Al Ain",
+        "ar": "العين",
+        "emirate": "Abu Dhabi"
+    },
+    {
+        "en": "Ajman",
+        "ar": "عجمان",
+        "emirate": "Ajman"
+    },
+    {
+        "en": "Ras Al Khaimah",
+        "ar": "رأس الخيمة",
+        "emirate": "Ras Al Khaimah"
+    },
+    {
+        "en": "Fujairah",
+        "ar": "الفجيرة",
+        "emirate": "Fujairah"
+    },
+    {
+        "en": "Umm al-Quwain",
+        "ar": "ام القيوين",
+        "emirate": "Umm al-Quwain"
+    },
+    {
+        "en": "Dibba Al-Fujairah",
+        "ar": "دبا الفجيرة",
+        "emirate": "Fujairah"
+    },
+    {
+        "en": "Khor Fakkan",
+        "ar": "خورفكان",
+        "emirate": "Sharjah"
+    },
+    {
+        "en": "Kalba",
+        "ar": "كلباء",
+        "emirate": "Sharjah"
+    },
+    {
+        "en": "Jebel Ali",
+        "ar": "جبل علي",
+        "emirate": "Dubai"
+    },
+    {
+        "en": "Madinat Zayed",
+        "ar": "مدينة زايد",
+        "emirate": "Abu Dhabi"
+    },
+    {
+        "en": "Ruwais",
+        "ar": "الرويس",
+        "emirate": "Abu Dhabi"
+    },
+    {
+        "en": "Liwa Oasis",
+        "ar": "ليوا",
+        "emirate": "Abu Dhabi"
+    },
+    {
+        "en": "Dhaid",
+        "ar": "الذيد",
+        "emirate": "Sharjah"
+    },
+    {
+        "en": "Ghayathi",
+        "ar": "غياثي",
+        "emirate": "Abu Dhabi"
+    },
+    {
+        "en": "Ar-Rams",
+        "ar": "الرمس",
+        "emirate": "Ras Al Khaimah"
+    },
+    {
+        "en": "Dibba Al-Hisn",
+        "ar": "دبا الحصن",
+        "emirate": "Sharjah"
+    },
+    {
+        "en": "Hatta",
+        "ar": "حتا",
+        "emirate": "Dubai"
+    },
+    {
+        "en": "Al Madam",
+        "ar": "المدام",
+        "emirate": "Sharjah"
+    }
+]

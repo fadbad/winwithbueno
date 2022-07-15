@@ -1,0 +1,702 @@
+[
+  {
+    "name": "Dubai",
+    "ar": "",
+    "lat": "25.2697",
+    "lng": "55.3094",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Sharjah",
+    "ar": "",
+    "lat": "25.3575",
+    "lng": "55.3919",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Abu Dhabi",
+    "ar": "",
+    "lat": "24.4781",
+    "lng": "54.3686",
+    "admin_name": "Abu Dhabi"
+  },
+  {
+    "name": "Al Ayn",
+    "ar": "",
+    "lat": "24.2075",
+    "lng": "55.7447",
+    "admin_name": "Abu Dhabi"
+  },
+  {
+    "name": "Ajman",
+    "ar": "",
+    "lat": "25.3994",
+    "lng": "55.4797",
+    "admin_name": "Ajman"
+  },
+  {
+    "name": "Ras al Khaymah",
+    "ar": "",
+    "lat": "25.7915",
+    "lng": "55.9428",
+    "admin_name": "Ras al Khaymah"
+  },
+  {
+    "name": "Al Fujayrah",
+    "ar": "",
+    "lat": "25.1308",
+    "lng": "56.3347",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Umm al Qaywayn",
+    "ar": "",
+    "lat": "25.5653",
+    "lng": "55.5533",
+    "admin_name": "Umm al Qaywayn"
+  },
+  {
+    "name": "Madinat Zayid",
+    "ar": "",
+    "lat": "23.6522",
+    "lng": "53.6536",
+    "admin_name": "Abu Dhabi"
+  },
+  {
+    "name": "Shariyah",
+    "ar": "",
+    "lat": "24.8151",
+    "lng": "56.0986",
+    "admin_name": "Ajman"
+  },
+  {
+    "name": "Hasat al Bidiyah",
+    "ar": "",
+    "lat": "25.3273",
+    "lng": "55.9799",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Masfut",
+    "ar": "",
+    "lat": "24.8109",
+    "lng": "56.1066",
+    "admin_name": "Ajman"
+  },
+  {
+    "name": "Ud al Bayda",
+    "ar": "",
+    "lat": "25.0162",
+    "lng": "55.4553",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Qaraytaysah",
+    "ar": "",
+    "lat": "24.8708",
+    "lng": "55.5491",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Margham",
+    "ar": "",
+    "lat": "24.8987",
+    "lng": "55.6240",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Qimah",
+    "ar": "",
+    "lat": "24.7867",
+    "lng": "56.1414",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Hunaywah",
+    "ar": "",
+    "lat": "25.1947",
+    "lng": "55.5945",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Hayl",
+    "ar": "",
+    "lat": "24.7892",
+    "lng": "56.1146",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Sufayri",
+    "ar": "",
+    "lat": "24.8117",
+    "lng": "56.1265",
+    "admin_name": "Ajman"
+  },
+  {
+    "name": "Urqub Juwayza",
+    "ar": "",
+    "lat": "24.9333",
+    "lng": "55.4667",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Ferij al Muhadham",
+    "ar": "",
+    "lat": "25.2875",
+    "lng": "55.3175",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Al Faq",
+    "ar": "",
+    "lat": "24.7133",
+    "lng": "55.6231",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Hatta",
+    "ar": "",
+    "lat": "24.8007",
+    "lng": "56.1273",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Al Lusayli",
+    "ar": "",
+    "lat": "24.9314",
+    "lng": "55.4753",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Warisan",
+    "ar": "",
+    "lat": "25.1674",
+    "lng": "55.4071",
+    "admin_name": "Dubai"
+  },
+  {
+    "name": "Mudayfi",
+    "ar": "",
+    "lat": "25.3617",
+    "lng": "56.3447",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Lulayyah",
+    "ar": "",
+    "lat": "25.3926",
+    "lng": "56.3546",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Al Jazirah",
+    "ar": "",
+    "lat": "25.3500",
+    "lng": "55.3667",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Wadi Shi",
+    "ar": "",
+    "lat": "25.3500",
+    "lng": "56.3167",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Khawr Fakkan",
+    "ar": "",
+    "lat": "25.3313",
+    "lng": "56.3420",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Ash Shuayb",
+    "ar": "",
+    "lat": "24.7471",
+    "lng": "55.8163",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Hiyawah",
+    "ar": "",
+    "lat": "25.3604",
+    "lng": "56.3477",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Ar Rufaysah",
+    "ar": "",
+    "lat": "25.3452",
+    "lng": "56.3225",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Rafa",
+    "ar": "",
+    "lat": "25.3470",
+    "lng": "56.3501",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Shis",
+    "ar": "",
+    "lat": "25.2914",
+    "lng": "56.2455",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Nahwah",
+    "ar": "",
+    "lat": "25.2733",
+    "lng": "56.2852",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Zubarah",
+    "ar": "",
+    "lat": "25.4049",
+    "lng": "56.3597",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Al Hamriyah",
+    "ar": "",
+    "lat": "25.4782",
+    "lng": "55.5338",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Adh Dhayd",
+    "ar": "",
+    "lat": "25.2881",
+    "lng": "55.8816",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Al Awdah",
+    "ar": "",
+    "lat": "25.3807",
+    "lng": "56.3092",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Qidfa",
+    "ar": "",
+    "lat": "25.3110",
+    "lng": "56.3609",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Bitnah",
+    "ar": "",
+    "lat": "25.1889",
+    "lng": "56.2328",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Mutaridah",
+    "ar": "",
+    "lat": "25.5084",
+    "lng": "56.1105",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Theeb",
+    "ar": "",
+    "lat": "25.2450",
+    "lng": "56.3421",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Uqayr",
+    "ar": "",
+    "lat": "25.2830",
+    "lng": "56.3644",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Wabayn",
+    "ar": "",
+    "lat": "25.5705",
+    "lng": "56.1354",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Al Qurayyah",
+    "ar": "",
+    "lat": "25.2378",
+    "lng": "56.3613",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Al Manamah",
+    "ar": "",
+    "lat": "25.3299",
+    "lng": "56.0219",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Abadilah",
+    "ar": "",
+    "lat": "25.4535",
+    "lng": "56.1899",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Al Halah",
+    "ar": "",
+    "lat": "25.4774",
+    "lng": "56.1824",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Ghurfah",
+    "ar": "",
+    "lat": "25.5977",
+    "lng": "56.2767",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Hayl",
+    "ar": "",
+    "lat": "25.0922",
+    "lng": "56.2442",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Ghayl",
+    "ar": "",
+    "lat": "25.0068",
+    "lng": "56.3329",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Al Fuqait",
+    "ar": "",
+    "lat": "25.5997",
+    "lng": "56.3425",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Saif",
+    "ar": "",
+    "lat": "25.1842",
+    "lng": "56.2421",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Badiyah",
+    "ar": "",
+    "lat": "25.4323",
+    "lng": "56.3457",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Farah",
+    "ar": "",
+    "lat": "25.1368",
+    "lng": "56.2373",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Mukhtaraqah",
+    "ar": "",
+    "lat": "25.5409",
+    "lng": "56.1307",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Yalah",
+    "ar": "",
+    "lat": "25.4152",
+    "lng": "56.1550",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Ţayyibah",
+    "ar": "",
+    "lat": "25.4123",
+    "lng": "56.1707",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Harat Zutut",
+    "ar": "",
+    "lat": "25.6071",
+    "lng": "56.2957",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Khawr Kalba",
+    "ar": "",
+    "lat": "25.0384",
+    "lng": "56.3626",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Al Uyaynah",
+    "ar": "",
+    "lat": "25.4528",
+    "lng": "56.1688",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Rul Dadna",
+    "ar": "",
+    "lat": "25.5548",
+    "lng": "56.3455",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Murbah",
+    "ar": "",
+    "lat": "25.2762",
+    "lng": "56.3626",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Rughaylat",
+    "ar": "",
+    "lat": "25.1055",
+    "lng": "56.3563",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Tawian",
+    "ar": "",
+    "lat": "25.5568",
+    "lng": "56.0765",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Shawiyah",
+    "ar": "",
+    "lat": "25.2679",
+    "lng": "56.0815",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Harrah",
+    "ar": "",
+    "lat": "24.9904",
+    "lng": "56.2167",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Diba",
+    "ar": "",
+    "lat": "25.6195",
+    "lng": "56.2729",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Sinnah",
+    "ar": "",
+    "lat": "25.5087",
+    "lng": "56.1677",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Riyamah",
+    "ar": "",
+    "lat": "25.5456",
+    "lng": "56.0584",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Dub",
+    "ar": "",
+    "lat": "25.6130",
+    "lng": "56.2772",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Sram",
+    "ar": "",
+    "lat": "25.4982",
+    "lng": "56.0572",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Asamah",
+    "ar": "",
+    "lat": "25.3983",
+    "lng": "56.1507",
+    "admin_name": "Ras al Khaymah"
+  },
+  {
+    "name": "Al Ayn al Ghumur",
+    "ar": "",
+    "lat": "24.9595",
+    "lng": "56.3159",
+    "admin_name": "Ras al Khaymah"
+  },
+  {
+    "name": "Kalba",
+    "ar": "",
+    "lat": "25.0746",
+    "lng": "56.3554",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Wahlah",
+    "ar": "",
+    "lat": "24.9090",
+    "lng": "56.3032",
+    "admin_name": "Ras al Khaymah"
+  },
+  {
+    "name": "Thoban",
+    "ar": "",
+    "lat": "25.3033",
+    "lng": "56.0279",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Hafarah",
+    "ar": "",
+    "lat": "25.0411",
+    "lng": "56.3149",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Al Gissemari",
+    "ar": "",
+    "lat": "25.1434",
+    "lng": "56.2484",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Hayat",
+    "ar": "",
+    "lat": "25.0581",
+    "lng": "56.3457",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Khulaybiyah",
+    "ar": "",
+    "lat": "25.3812",
+    "lng": "56.1736",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Zanhah",
+    "ar": "",
+    "lat": "25.5659",
+    "lng": "56.2022",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Saqamqam",
+    "ar": "",
+    "lat": "25.1747",
+    "lng": "56.3304",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Dahir",
+    "ar": "",
+    "lat": "25.5334",
+    "lng": "56.1550",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Jareef",
+    "ar": "",
+    "lat": "25.5142",
+    "lng": "56.0719",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Girath",
+    "ar": "",
+    "lat": "25.2609",
+    "lng": "56.3543",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Al Kubus",
+    "ar": "",
+    "lat": "25.6015",
+    "lng": "56.3047",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Ashashah",
+    "ar": "",
+    "lat": "25.4593",
+    "lng": "56.1640",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Siji",
+    "ar": "",
+    "lat": "25.2476",
+    "lng": "56.0772",
+    "admin_name": "Ras al Khaymah"
+  },
+  {
+    "name": "Aqqah",
+    "ar": "",
+    "lat": "25.4987",
+    "lng": "56.3583",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Ras Dibba",
+    "ar": "",
+    "lat": "25.6055",
+    "lng": "56.3050",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Nuhayy",
+    "ar": "",
+    "lat": "25.2707",
+    "lng": "56.3624",
+    "admin_name": "Ash Shariqah"
+  },
+  {
+    "name": "Dabah",
+    "ar": "",
+    "lat": "25.4825",
+    "lng": "56.1387",
+    "admin_name": "Ras al Khaymah"
+  },
+  {
+    "name": "Murbad",
+    "ar": "",
+    "lat": "25.3254",
+    "lng": "56.1331",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Şafad",
+    "ar": "",
+    "lat": "25.2231",
+    "lng": "56.2994",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Tariqat Jad",
+    "ar": "",
+    "lat": "25.5285",
+    "lng": "56.1514",
+    "admin_name": "Al Fujayrah"
+  },
+  {
+    "name": "Mawrid",
+    "ar": "",
+    "lat": "25.4287",
+    "lng": "56.1146",
+    "admin_name": "Ras al Khaymah"
+  },
+  {
+    "name": "Tarif Kalba",
+    "ar": "",
+    "lat": "25.0695",
+    "lng": "56.3312",
+    "admin_name": "Al Fujayrah"
+  }
+]

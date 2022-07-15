@@ -1,0 +1,1 @@
+export { myFatoorah } from './myfatoorah'

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "United Arab Emirates (الإمارات العربية المتحدة)",
+        "en": "United Arab Emirates",
+        "ar": "الإمارات العربية المتحدة",
+        "code": "ae",
+        "dialCode": "971"
+    },  
+    {
+        "name": "Saudi Arabia (المملكة العربية السعودية)",
+        "en": "Saudi Arabia",
+        "ar": "المملكة العربية السعودية",
+        "code": "sa",
+        "dialCode": "966"
+    },
+    {
+        "name": "Qatar (قطر)",
+        "en": "Qatar",
+        "ar": "قطر",
+        "code": "qa",
+        "dialCode": "974"
+    },
+    {
+        "name": "Oman (عُمان)",
+        "en": "Oman",
+        "ar": "عُمان",
+        "code": "om",
+        "dialCode": "968"
+    },
+    {
+        "name": "Kuwait (الكويت)",
+        "en": "Kuwait",
+        "ar": "الكويت",
+        "code": "kw",
+        "dialCode": "965"
+    },
+    {
+        "name": "Bahrain (البحرين)",
+        "en": "Bahrain",
+        "ar": "البحرين",
+        "code": "bh",
+        "dialCode": "973"
+    }
+]
