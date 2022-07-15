@@ -5,7 +5,9 @@
 // and what to do when importing types
 declare namespace App {
 	interface Locals {
-		userid: string;
+		userid?: string;
+		token?: string,
+		user?: object,
 	}
 
 	// interface Platform {}
@@ -13,4 +15,15 @@ declare namespace App {
 	// interface Session {}
 
 	// interface Stuff {}
+}
+
+interface Window {
+	dataLayer?: any
+}
+
+interface Navigator {
+	getUserMedia: () => void;
+	webkitGetUserMedia: () => void;
+	mozGetUserMedia: () => void;
+	msGetUserMedia: () => void;
 }

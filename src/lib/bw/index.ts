@@ -19,6 +19,8 @@ export {default as OutClick} from './elements/OutClick.svelte'
 export {default as Modal} from './elements/Modal.svelte'
 export {default as Stats} from './elements/Stats.svelte'
 export {default as VideoPlayer} from './elements/VideoPlayer/VideoPlayer.svelte'
+export {default as DeviceDetector} from './elements/DeviceDetector.svelte'
+export {default as Webcam} from './elements/Webcam.svelte'
 
 export {default as Input} from './forms/Input.svelte';
 export {default as Select} from "./forms/select/Select.svelte";
@@ -36,3 +38,7 @@ export {default as RadioGroup} from './forms/RadioGroup.svelte'
 export {default as BaseComponent} from './forms/BaseComponent.svelte'
 
 export {default as Snackbar} from './elements/Snackbar.svelte';
+
+export { 
+    SveltyPicker, sveltypicker_en, sveltypicker_ar 
+} from './forms/SveltyPicker'

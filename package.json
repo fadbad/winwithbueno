@@ -8,7 +8,12 @@
     "preview": "vite preview",
     "prepare": "svelte-kit sync",
     "check": "svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+    "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
+    "push": "npx prisma db push",
+    "deploy": "node .deploy",
+    "make:migration": "npx prisma migrate dev --name",
+    "migrate:dev": "npx prisma migrate dev",
+    "migrate:prod": "npx prisma migrate deploy"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
@@ -30,6 +35,7 @@
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
-    "cookie": "^0.4.1"
+    "cookie": "^0.4.1",
+    "sweetalert2": "^11.4.23"
   }
 }
