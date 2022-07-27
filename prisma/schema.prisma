@@ -41,12 +41,6 @@ model Option {
   updatedAt           DateTime @updatedAt
 }
 
-model Code {
-  code String @unique
-  usedBy Int? 
-  usedAt DateTime?
-}
-
 model User {
   id                  Int       @id @default(autoincrement())
   name                String?
@@ -55,6 +49,7 @@ model User {
   mobile              String?
   email               String?
   image               String?
+  code                String?
   city                String?
   country             String?
   gender              String?
