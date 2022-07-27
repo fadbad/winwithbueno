@@ -4,7 +4,7 @@ import { browser } from "$app/env";
 import _ from 'lodash'
 
 export { createForm } from './createForm'
-export { default as Fuse } from './fuse'
+// export { default as Fuse } from './fuse'
 export * from './utils'
 
 export const BASE_URL = '/api/dashboard'

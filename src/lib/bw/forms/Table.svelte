@@ -1,6 +1,5 @@
 <script lang="ts">
-    import { stringify } from 'postcss';
-import {createEventDispatcher, onMount} from 'svelte';
+    import {createEventDispatcher, onMount} from 'svelte';
     const dispatch = createEventDispatcher();
     import { Icon, Paginate, DatePicker, Swal, __date_item, Lottie, api, formatLabel, Dropdown, BASE_URL, decrypt } from "../";
 

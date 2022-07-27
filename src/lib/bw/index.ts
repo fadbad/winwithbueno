@@ -30,13 +30,15 @@ export {default as DropzoneFile} from './forms/DropzoneFile.svelte';
 export {default as Sortable} from './forms/Sortable.svelte';
 export {default as PanelRight} from './forms/PanelRight.svelte'
 export {default as FormSchema} from './forms/FormSchema.svelte'
-export {default as Table} from './forms/Table.svelte'
+export {default as RadioGroup} from './forms/RadioGroup.svelte'
+
 export {default as TableToggle} from './forms/TableToggle.svelte'
 export {default as Form} from './forms/Form.svelte'
-export {default as RadioGroup} from './forms/RadioGroup.svelte'
 export {default as BaseComponent} from './forms/BaseComponent.svelte'
 
 export {default as Snackbar} from './elements/Snackbar.svelte';
+
+export {default as Table} from './forms/Table.svelte'
 
 export { 
     SveltyPicker, sveltypicker_en, sveltypicker_ar 

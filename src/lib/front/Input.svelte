@@ -3,7 +3,7 @@
     const dispatch = createEventDispatcher();
 	import { 
 		Icon, Select, SveltyPicker, sveltypicker_ar, sveltypicker_en
-	} from "./bw"
+	} from "../bw"
 
 	export let id = `inp-${Date.now()}`;
 	export let type = 'text';
