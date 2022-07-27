@@ -1,6 +1,6 @@
 import { db, Joi, __res, base64Upload, dbMapper, toEmail } from "$lib/bw/api";
 import { a2e } from "$lib/utils"
-import { template, voucher } from "$lib/mail"
+import { template } from "$lib/mail"
 
 const schema = Joi.object({
     first_name: Joi.string().required(),
@@ -27,9 +27,6 @@ export const post = async ({ request, clientAddress }) => {
     console.log('values', value)
 
     try {
-        const __voucher = await voucher()
-        const prize = __voucher?.name || 'wallpaper'
-        const prizeCode = __voucher?.voucher?.name || ''
 
         let img: any = ''
         if(value.screenshot) img = await base64Upload(value.screenshot, 2000)
@@ -46,8 +43,6 @@ export const post = async ({ request, clientAddress }) => {
                 image: img,
                 dob: new Date(value.dob),
                 sms: value.sms,
-                prize,
-                prizeCode,
                 ip: clientAddress
             }
         })
@@ -55,14 +50,13 @@ export const post = async ({ request, clientAddress }) => {
         const user = dbMapper(item)
 
         const subject = 'Lays Gourmet Voucher'
-        const msg = template(__voucher?.name, __voucher?.voucher?.name, value?.lang || 'en')
-        const emailRes = await toEmail(value.email, subject, msg, __voucher?.voucher?.attachment || [])
+        // const msg = template(value?.lang || 'en')
+        const msg = ''
+        const emailRes = await toEmail(value.email, subject, msg)
 
         return __res.created({ 
             user,
             emailRes,
-            prize,
-            prizeCode,
         })
     } catch (error) {
         return __res.error(error)

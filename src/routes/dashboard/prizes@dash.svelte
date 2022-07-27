@@ -1,5 +1,4 @@
 <script>
-import { prizes } from "$lib";
 
     import { Template }  from "$lib/bw";
     export let byPrize = []

@@ -6,7 +6,7 @@ export const scrollToID = (id) => {
     setTimeout(() => window.scroll({top: y - 80, behavior: 'smooth'}), 100)
 }
 
-export const s3 = path => 'https://lays.eu-central-1.linodeobjects.com'+path;
+export const s3 = path => 'https://bueno.eu-central-1.linodeobjects.com'+path;
 
 export const randomObj = items => items[Math.floor(Math.random()*items.length)]
 

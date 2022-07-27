@@ -1,5 +1,0 @@
-export * from './anghami'
-export * from './opera'
-export * from './sensasia'
-export * from './vox'
-export * from './wallpaper'
