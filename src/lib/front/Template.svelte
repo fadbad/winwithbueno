@@ -6,6 +6,8 @@
     export let title = ''
     export let siteTitle = 'Win with Bueno'
 
+    export let lang = 'en'
+
     let withHeader = 'yes'
 
     $: hasHeader = withHeader === 'yes'
@@ -17,7 +19,7 @@
 
 <Seo siteTitle={siteTitle} title={title}  />
 
-<div class="min-h-screen w-screen bg-white">
+<div class="min-h-screen w-screen bg-white lang-{lang}">
     
     {#if hasHeader}
         <!-- HEADER -->
@@ -44,6 +46,6 @@
     <!-- FOOTER WAVE -->
     <div class="relative -mt-14 z-20">
         <Footer />
-        <div class="bg-primary h-10"></div>
+        <div class="bg-primary h-10 -mt-1"></div>
     </div>
 </div>

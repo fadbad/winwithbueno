@@ -41,6 +41,12 @@ class Fetcher {
         })
     }
 
+    withCors(){
+        return this.withHeaders({
+            'Access-Control-Allow-Origin': '*'
+        })
+    }
+
     accept(){
         return this.withHeaders({
             'Accept': 'application/json',

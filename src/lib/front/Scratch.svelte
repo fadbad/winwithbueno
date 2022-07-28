@@ -2,6 +2,9 @@
     import { onMount, tick } from "svelte";
     import { browser } from '$app/env';
 
+    export let width = 320
+    export let height = 180
+
     let started = false
     let finished = false
     let isDrawing = false
@@ -74,8 +77,8 @@
         if(typeof context === 'undefined') return
         
         context.clearRect(0, 0, canvas.width, canvas.height);
-        context.fillStyle = "#f00";
-        context.fillRect(0, 0, size, size);
+        context.fillStyle = "#f3410e";
+        context.fillRect(0, 0, width, height);
         context.lineWidth = 75;
         context.lineJoin = "round";
         getPercentage()
@@ -107,45 +110,20 @@
         }
     })
 
-    const clamp = (min, max, v) => (v <= min) ? min : (v>= max) ? max : v
-
     $: percentage
-    $: innerWidth = 0
-    $: size = clamp(320, 600, innerWidth - 20)
-    $: size > 0 ? reset() : null
 </script>
 
-<svelte:window bind:innerWidth />
-
-<svelte:head>
-    <title>Scratch Pad</title>
-</svelte:head>
-
-<div class="flex items-center justify-center w-screen h-screen bg-slate-800">
-    <div 
-        class="relative w-full aspect-square bg-slate-500 mx-auto"
-        style="width: {size}px; height: {size}px;"
-    >
-        <div class="absolute inset-0 bg-red-600 z-10">
-            <img src="https://picsum.photos/800/800" alt="" class="aspect-square object-cover w-full h-full" />
-        </div>
-        <canvas 
-            bind:this={canvas} 
-            width={size} height={size}
-            class="absolute inset-0 z-20"
-        />
-        {#if !started}
-            <div class="absolute inset-0 z-30 flex items-center justify-center pointer-events-none">
-                <div class="font-['Pacifico'] text-white text-3xl">
-                    Scratch & WIN
-                </div>
-            </div>
-        {/if}
-        <div class=" absolute top-0 left-0 w-16 h-16 rounded-br-full bg-white flex items-center justify-center shadow-md pointer-events-none z-50">
-            <div class="font-bold pr-3">
-                {percentage}%
-            </div>
-        </div>
+<div 
+    class="relative w-full aspect-square bg-slate-500 mx-auto"
+    style="width: {width}px; height: {height}px;"
+>
+    <div class="absolute inset-0 z-10">
+        <img src="https://picsum.photos/800/800" alt="" class="aspect-square object-cover w-full h-full" />
     </div>
-
+    <canvas 
+        bind:this={canvas} 
+        width={width} height={height}
+        class="absolute inset-0 z-20"
+    />
+    
 </div>

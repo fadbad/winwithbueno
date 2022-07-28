@@ -1,11 +1,11 @@
 <script>
     import {createEventDispatcher} from 'svelte';
     const dispatch = createEventDispatcher();
+    import { Logo } from '$lib'
 </script>
 
-<div class="flex justify-center">
-    <img src="/assets/bueno.png" alt="" class=" h-28" />
-</div>
+<Logo />
+
 <div class="flex flex-col items-center justify-center">
     <div class="skew-x-6 -rotate-[9deg] text-primary montserrat font-extrabold text-center tracking-tighter text-[32px] italic">
         SURPRISING TASTE.
@@ -22,15 +22,11 @@
 <div class="relative">
 
     <div class="absolute inset-0 z-0 -mt-24">
-        <svg viewBox="0 0 4070 1584" width="100%">
-            <mask id="a" fill="#fff"><path d="m0 0h4070v1583.8088h-4070z" fill="#fff" fill-rule="evenodd"/></mask>
-            <path d="m4071.1089 14.2248002c-579.137-109.086-916.01 441.4369998-1689.59 555.1329998-538.575 79.156-1668.741-535.5489998-2382.628 175.02v839.431h4070.203z" fill="#ffcc02" fill-rule="evenodd" mask="url(#a)" transform="translate(0 .1911)"/>
-        </svg>
-
+        <svg viewBox="0 0 100 60" width="100%" xmlns="http://www.w3.org/2000/svg"><path d="m100 .34980678c-14.22166-2.68257002-22.4941297 10.85552372-41.4906569 13.65145982-13.2255936 1.9465514-40.9786755-13.16986318-58.5093431 4.3039749v41.6900635h99.9505184z" fill="#ffcc02" fill-rule="evenodd" transform="translate(0 .004695)"/></svg>
     </div>
 
     <div class="relative z-50">
-        <div class="container mx-auto">
+        <div class="container mx-auto max-w-5xl">
             <div class="flex justify-between">
 
                 <div class="text-white relative mt-20 ml-auto">
@@ -58,9 +54,9 @@
 
                     <div class=" mt-32">
 
-                        <a href="/" class="inline-block px-10 py-3 montserrat font-extrabold tracking-tighter text-3xl text-white bg-primary rounded-md" on:click|preventDefault={() => dispatch('change', 'yes')}>
+                        <button type="button" class="inline-block px-10 py-3 montserrat font-extrabold tracking-tighter text-3xl text-white bg-primary rounded-md" on:click={() => dispatch('change', 'yes')}>
                             START NOW
-                        </a>
+                        </button>
                     </div>
                 </div>
 

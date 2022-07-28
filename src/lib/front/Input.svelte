@@ -23,7 +23,7 @@
 	export let lang = 'en'
 	export let isSearchable = true
 
-	export let inputClass = 'p-3 bg-black rounded text-white w-full placeholder-[#ccc] border-2 border-primary';
+	export let inputClass = 'p-3 bg-white rounded-md text-black w-full placeholder-[#ccc] border border-black';
 	
 	export let labelClass = 'block mb-[2px] mx-3 color-gold uppercase font-normal text-xs font-semibold';
 
@@ -79,20 +79,20 @@
 			on:clear={ev => dispatch('change', { detail: '' })}
 			containerStyles={`
 				padding: 0.75rem; 
-				background: #000; 
-				border-radius: 0.25rem; 
+				background: #fff; 
+				border-radius: 0.375rem; 
 				width: 100%; 
 				line-height: 1; 
 				height: 3rem; 
-				border: 2px solid #DCAF50; 
-				--inputColor: #fff; 
-				--placeholderColor: #ccc; 
-				--indicatorColor: #DCAF50; 
-				--indicatorFill: #DCAF50; 
-				--indicatorStroke: #DCAF50; 
-				--clearSelectColor: #DCAF50; 
-				--clearSelectHoverColor: #fff; 
-				--clearSelectFocusColor: #DCAF50; 
+				border: 1px solid #000; 
+				--inputColor: #000; 
+				--placeholderColor: #888; 
+				--indicatorColor: #000; 
+				--indicatorFill: #000; 
+				--indicatorStroke: #000; 
+				--clearSelectColor: #000; 
+				--clearSelectHoverColor: #000; 
+				--clearSelectFocusColor: #000; 
 				--indicatorTop: 14px;
 				--indicatorRight: ${lang === 'ar' ? 'auto' : '10px'};
 				--indicatorLeft: ${lang === 'ar' ? '10px' : 'auto'};
@@ -101,7 +101,7 @@
 				--selectedItemPadding: ${lang === 'ar' ? '0 0 0 20px' : '0 20px 0 0'};
 				--internalPadding: 0 0.75rem;
 			`}
-			selectedItemStyles={`color: #fff`}
+			selectedItemStyles={`color: #000`}
 			wrapperClasses={''}
 		/>
 	{:else if type === 'number'}
@@ -146,7 +146,7 @@
 	{/if}
 
 	{#if error}
-		<div class="mt-1 text-xs text-secondary font-bold mx-3">{error}</div>
+		<div class="mt-1 text-xs text-primary uppercase font-bold mx-3">{error}</div>
 	{/if}
 
     {#if help || maxChars}

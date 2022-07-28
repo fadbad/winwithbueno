@@ -1,7 +1,9 @@
 <script>
     import { Template } from "$lib"
-    import { Home, Code } from "$lib/front/steps/en"
+    import { Home, Code, Register, Terms, Scratch } from "$lib/front/steps/en"
     let step = 1
+    let code = ''
+    let user = {}
 </script>
 
 <Template>
@@ -9,8 +11,17 @@
         <Home on:change={() => step = 2} />
     {:else if step === 2}
         <Code on:change={ev => {
-            // sms = ev.detail
+            code = ev.detail
             step = 3
         }} />
+    {:else if step === 3}
+        <Register on:change={ev => {
+            user = ev.detail
+            step = 4
+        }} />
+    {:else if step === 4}
+        <Terms on:change={() => step = 5} />
+    {:else if step === 5}
+        <Scratch on:change={() => step = 6} />
     {/if}
 </Template>

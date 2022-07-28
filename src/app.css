@@ -6,6 +6,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.select:focus, .input:focus{
+    outline: none !important;
+}
 
 @font-face{
     font-family:'Chronic';
@@ -43,6 +46,14 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+.lang-en {
+    font-family: "Montserrat", sans-serif;
+}
+
+.lang-ar {
+    font-family: "Hacen", sans-serif;
 }
 
 .montserrat {
