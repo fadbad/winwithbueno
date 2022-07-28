@@ -1,43 +1,16 @@
 <script>
     import { Template } from "$lib"
+    import { Home, Code } from "$lib/front/steps/en"
+    let step = 1
 </script>
 
 <Template>
-    <div class="flex justify-center">
-        <img src="/assets/bueno.png" alt="" class=" h-28" />
-    </div>
-    <div class="flex flex-col items-center justify-center">
-        <div class="skew-x-6 -rotate-[9deg] text-primary montserrat font-extrabold text-center tracking-tighter text-[32px] italic">
-            SURPRISING TASTE.
-        </div>
-        <div class=" bg-primary -mt-2 -skew-x-[9deg] -rotate-[9deg] px-4 py-3 montserrat font-extrabold text-white text-center text-[54px] tracking-tighter leading-none">
-            BIG WINS!
-        </div>
-        <div class="skew-x-6 -rotate-[9deg] text-primary montserrat font-extrabold text-center tracking-tighter text-[18px] italic leading-none mt-2">
-            TV, SURROUND SYSTEM AND MANY MORE.
-        </div>
-
-    </div>
-
-    <div class="relative">
-
-        <div class="absolute inset-0 z-0 -mt-[7vw]">
-            <svg viewBox="0 0 4070 1584" width="100%">
-                <mask id="a" fill="#fff"><path d="m0 0h4070v1583.8088h-4070z" fill="#fff" fill-rule="evenodd"/></mask>
-                <path d="m4071.1089 14.2248002c-579.137-109.086-916.01 441.4369998-1689.59 555.1329998-538.575 79.156-1668.741-535.5489998-2382.628 175.02v839.431h4070.203z" fill="#ffcc02" fill-rule="evenodd" mask="url(#a)" transform="translate(0 .1911)"/>
-            </svg>
-
-        </div>
-
-        <div class="relative">
-            <div class="container mx-auto">
-                <div class="flex justify-end">
-
-                    <img src="/assets/tv.png" alt="tv" class="w-full md:w-[50%] z-50 -mt-[4vw]" />
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="relative bg-[url(/assets/grass.png)] bg-repeat-x h-[290px] bg-top -mt-[7vw] z-10" ></div>
+    {#if step === 1}
+        <Home on:change={() => step = 2} />
+    {:else if step === 2}
+        <Code on:change={ev => {
+            // sms = ev.detail
+            step = 3
+        }} />
+    {/if}
 </Template>
