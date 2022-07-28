@@ -37,12 +37,13 @@
         </div>
     {/if}
 
-    <div class="pt-[50px] container mx-auto px-3 md:px-0 min-h-[100px]">
+    <div class="pt-[50px] min-h-[100px]">
         <slot />
     </div>
 
     <!-- FOOTER WAVE -->
-    <div class="footer-wave">
+    <div class="relative -mt-14 z-20">
         <Footer />
+        <div class="bg-primary h-10"></div>
     </div>
 </div>
