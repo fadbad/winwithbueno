@@ -9,20 +9,20 @@
 
     const handle = async () => {
         // SEEE3TR2
-        if(!code) return Swal.fire('Kindly supply the code', '', 'error')
-        if(code.length !== 8) return Swal.fire('Code format not accepted', '', 'warning')
+        if(!code) return Swal.fire('يرجى تزويد الكود', '', 'error')
+        if(code.length !== 8) return Swal.fire('تنسيق الكود غير مقبول', '', 'warning')
 
         loading = true
-        const res = await fetcher.asJson().withCors().get('/api/codes', { code })
+        const res = await fetcher.asJson().get('/api/codes', { code })
         loading = false
         if(res.ok){
             if(res.data.valid){
                 dispatch('change', code)
             } else {
-                Swal.fire('Error occured', res.data.message, 'warning')
+                Swal.fire('حدث خطأ', res.data.message, 'warning')
             }
         } else {
-            Swal.fire('Error occured', 'Error communicating with server', 'warning')
+            Swal.fire('حدث خطأ', 'خطأ في الاتصال بالخادم', 'warning')
         }
 
     }
@@ -30,7 +30,7 @@
 
 <Logo />
 
-<div class="block md:flex items-center justify-center md:mt-16 pb-48">
+<div class="block md:flex items-center justify-center md:mt-16 pb-10">
 
     <div class="flex flex-col items-center justify-center">
         <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[48px] italic mb-1">
@@ -59,8 +59,9 @@
             </div>
         </div>
     </div>
+
 </div>
 
-<div class="z-50 hidden md:flex justify-end relative">
-    <img src="/assets/chocolate.png" alt="" class=" absolute right-0 -top-[178px] h-52 mt-10" />
+<div class="z-50 relative flex md:justify-end w-screen overflow-hidden">
+    <img src="/assets/chocolate.png" alt="" class="mt-4 md:h-52 md:-mr-16 md:mt-10 md:-rotate-[20deg]" />
 </div>

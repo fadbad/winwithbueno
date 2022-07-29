@@ -60,7 +60,7 @@
     }
 
     const submit = async () => {
-        // if(check()) return
+        if(check()) return
         dispatch('change', state)
         setTimeout(() => {
             errors = {...defaultState}

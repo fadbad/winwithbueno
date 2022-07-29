@@ -2,7 +2,6 @@
     import {createEventDispatcher} from 'svelte';
     const dispatch = createEventDispatcher();
     import { Logo, Scratch } from '$lib'
-    import { Swal } from '$lib/bw'
 
 </script>
 
@@ -39,7 +38,7 @@
                     <img src="/assets/scratchBar.svg" alt="" />
                 </div>
                 <div class="relative mt-4 ml-[1.6px]">
-                    <Scratch image="/assets/sorry.webp" on:finished={() => Swal.fire('hahahah')} />
+                    <Scratch image="/assets/sorry.webp" on:finished={() => dispatch('change', '')} />
                 </div>
             </div>
         </div>

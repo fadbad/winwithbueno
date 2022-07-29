@@ -1,12 +1,13 @@
 <script>
     import { Template } from "$lib"
-    import { Home, Code, Register, Terms, Scratch } from "$lib/front/steps/ar"
+    import { Home, Code, Register, Terms, Scratch, Result } from "$lib/front/steps/ar"
     let step = 1
     let code = ''
     let user = {}
 </script>
 
 <Template lang="ar">
+
     {#if step === 1}
         <Home on:change={() => step = 2} />
     {:else if step === 2}
@@ -23,5 +24,7 @@
         <Terms on:change={() => step = 5} />
     {:else if step === 5}
         <Scratch on:change={() => step = 6} />
+    {:else if step === 6}
+        <Result />
     {/if}
 </Template>

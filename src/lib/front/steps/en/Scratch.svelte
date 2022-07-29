@@ -1,7 +1,7 @@
 <script>
     import {createEventDispatcher} from 'svelte';
     const dispatch = createEventDispatcher();
-    import { Logo, Btn, Scratch } from '$lib'
+    import { Logo, Scratch } from '$lib'
 
 </script>
 
@@ -41,7 +41,7 @@
                     <img src="/assets/scratchBar.svg" alt="" />
                 </div>
                 <div class="relative mt-4 ml-[1.6px]">
-                    <Scratch image="/assets/sorry.webp" on:finished={() => alert('finished')} />
+                    <Scratch image="/assets/sorry.webp" on:finished={() => dispatch('change', '')} />
                 </div>
             </div>
         </div>

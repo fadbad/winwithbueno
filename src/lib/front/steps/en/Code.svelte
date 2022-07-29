@@ -13,7 +13,7 @@
         if(code.length !== 8) return Swal.fire('Code format not accepted', '', 'warning')
 
         loading = true
-        const res = await fetcher.asJson().withCors().get('/api/codes', { code })
+        const res = await fetcher.asJson().get('/api/codes', { code })
         loading = false
         if(res.ok){
             if(res.data.valid){
@@ -61,6 +61,6 @@
     </div>
 </div>
 
-<div class="z-50 hidden md:flex justify-end relative">
-    <img src="/assets/chocolate.png" alt="" class=" absolute right-0 -top-[178px] h-52 mt-10" />
+<div class="z-50 relative flex md:justify-end w-screen overflow-hidden">
+    <img src="/assets/chocolate.png" alt="" class="mt-4 md:h-52 md:-mr-16 md:mt-10 md:-rotate-[20deg]" />
 </div>
