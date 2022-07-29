@@ -48,6 +48,14 @@
     font-display: swap;
 }
 
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
 .lang-en {
     font-family: "Montserrat", sans-serif;
 }

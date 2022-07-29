@@ -33,11 +33,11 @@
 <div class="block md:flex items-center justify-center md:mt-16 pb-48">
 
     <div class="flex flex-col items-center justify-center">
-        <div class="skew-x-6 -rotate-[9deg] text-primary montserrat font-extrabold text-center tracking-tighter text-[32px] italic">
-            ENTER THE CODE
+        <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[48px] italic mb-1">
+            ادخل الرمز
         </div>
-        <div class=" bg-primary -mt-2 -skew-x-[9deg] -rotate-[9deg] px-4 py-3 montserrat font-extrabold text-white text-center text-[64px] tracking-tighter leading-none">
-            TO WIN!
+        <div class=" bg-primary -mt-2 -skew-x-[9deg] -rotate-[9deg] px-4 py-3 font-extrabold text-white text-center text-[80px] tracking-tighter leading-none">
+            لتربح
         </div>
     </div>
     <div class="mt-10 md:mt-0 md:ml-10">
@@ -47,11 +47,11 @@
             </div>
             <div class="px-8 py-6">
                 <div class="bg-white rounded-2xl shadow-md p-4 h-[155px] relative z-10">
-                    <div class="montserrat text-sm mb-3 text-center text-black">ENTER THE CODE ON YOUR WRAPPER</div>
+                    <div class="text-sm mb-3 text-center text-black">ادخل الرمز على الغلاف</div>
                     <input type="text" bind:value={code} class="border-primary border-2 rounded-lg bg-[#e9e9e9] w-full py-1 px-2" />
                     <div class="mt-4 flex justify-center">
-                        <button type="button" class="btn border-0 h-[30px] min-h-[30px] bg-primary hover:bg-secondary rounded-md px-6 py-1 montserrat font-extrabold text-white" on:click|preventDefault={handle} class:loading={loading}>
-                            CONFIRM
+                        <button type="button" class="btn border-0 h-[30px] min-h-[36px] bg-primary hover:bg-secondary rounded-md px-6 py-1 font-extrabold text-white text-xl" on:click|preventDefault={handle} class:loading={loading}>
+                            تأكيد
                         </button>
                     </div>
                 </div>

@@ -2,23 +2,24 @@
     import {createEventDispatcher} from 'svelte';
     const dispatch = createEventDispatcher();
     import { Logo, LangSwitch } from '$lib'
+import { lang } from 'moment';
 </script>
 
 <Logo />
 
 <div class="absolute right-4 top-4">
-    <LangSwitch lang="en" />
+    <LangSwitch lang="ar" />
 </div>
 
 <div class="flex flex-col items-center justify-center -mt-4 md:-mt-0 z-[60] relative">
-    <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[32px] italic">
-        SURPRISING TASTE.
+    <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[36px] italic">
+        لذة كبيرة
     </div>
-    <div class=" bg-primary -mt-2 -skew-x-[9deg] -rotate-[9deg] px-4 py-3 font-extrabold text-white text-center text-[54px] tracking-tighter leading-none">
-        BIG WINS!
+    <div class=" bg-primary -mt-2 -skew-x-[9deg] -rotate-[9deg] px-4 py-3 font-extrabold text-white text-center text-[54px] tracking-tighter leading-none rtl">
+        ومكافاَت اكبر!
     </div>
-    <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[18px] italic leading-none mt-2">
-        TV, SURROUND SYSTEM AND MANY MORE.
+    <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[24px] italic leading-none mt-2 rtl">
+        تلفزيون، ونظام صوتي، وجوائز اخرى!
     </div>
 
 </div>
@@ -39,7 +40,7 @@
                         </div>
                     </div>
 
-                    <div class="font-bold text-[14px]">
+                    <div class="montserrat font-bold text-[14px]">
                         Find the promo code inside the wrapper
                     </div>
 
@@ -50,14 +51,14 @@
                         </div>
                     </div>
 
-                    <div class="font-bold text-[14px]">
+                    <div class="montserrat font-bold text-[14px]">
                         Find the promo code inside the sleeve for minis
                     </div>
 
                     <div class="mt-10 md:mt-32">
 
                         <button type="button" class="inline-block px-10 py-3 font-extrabold tracking-tighter text-3xl text-white bg-primary rounded-md" on:click={() => dispatch('change', 'yes')}>
-                            START NOW
+                            ابدأ الآن
                         </button>
                     </div>
                 </div>

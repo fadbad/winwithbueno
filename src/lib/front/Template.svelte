@@ -39,7 +39,7 @@
         </div>
     {/if}
 
-    <div class="pt-[50px] min-h-[100px]">
+    <div class="pt-[50px] min-h-[100px] relative">
         <slot />
     </div>
 

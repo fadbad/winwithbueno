@@ -1,7 +1,8 @@
 <script>
     import {createEventDispatcher} from 'svelte';
     const dispatch = createEventDispatcher();
-    import { Logo, Btn, Scratch } from '$lib'
+    import { Logo, Scratch } from '$lib'
+    import { Swal } from '$lib/bw'
 
 </script>
 
@@ -25,13 +26,10 @@
 
             <div class="flex flex-col items-center justify-center pb-12 md:pb-0">
                 <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[24px] md:text-[36px] italic mb-1">
-                    SCRATCH
+                    حك للكشف
                 </div>
                 <div class=" bg-primary -mt-2 -skew-x-[9deg] -rotate-[9deg] px-4 py-3 font-extrabold text-white text-center text-[40px] md:text-[64px] tracking-tighter leading-none">
-                    TO REVEAL
-                </div>
-                <div class="skew-x-6 -rotate-[9deg] text-primary font-extrabold text-center tracking-tighter text-[24px] md:text-[32px] italic leading-none mt-1 z-[60]">
-                    YOUR PRIZE
+                    عن جائزتك
                 </div>
             
             </div>
@@ -41,7 +39,7 @@
                     <img src="/assets/scratchBar.svg" alt="" />
                 </div>
                 <div class="relative mt-4 ml-[1.6px]">
-                    <Scratch image="/assets/sorry.webp" on:finished={() => alert('finished')} />
+                    <Scratch image="/assets/sorry.webp" on:finished={() => Swal.fire('hahahah')} />
                 </div>
             </div>
         </div>

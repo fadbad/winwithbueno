@@ -1,9 +1,12 @@
 <script>
     import { onMount, tick } from "svelte";
     import { browser } from '$app/env';
+    import {createEventDispatcher} from 'svelte';
+    const dispatch = createEventDispatcher();
 
-    export let width = 320
-    export let height = 180
+    export let width = 300
+    export let height = 130
+    export let image = 'https://picsum.photos/800/800'
 
     let started = false
     let finished = false
@@ -41,6 +44,7 @@
             finished = true
             // 
             context.fillRect(0, 0, canvas.width, canvas.height);
+            dispatch('finished', 'yes')
         }
     };
 
@@ -117,8 +121,8 @@
     class="relative w-full aspect-square bg-slate-500 mx-auto"
     style="width: {width}px; height: {height}px;"
 >
-    <div class="absolute inset-0 z-10">
-        <img src="https://picsum.photos/800/800" alt="" class="aspect-square object-cover w-full h-full" />
+    <div class="absolute inset-0 z-10 bg-white">
+        <img src="{image}" alt="" class="max-w-full h-full mx-auto" />
     </div>
     <canvas 
         bind:this={canvas} 
